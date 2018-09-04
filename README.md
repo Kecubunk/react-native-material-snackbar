@@ -1,8 +1,9 @@
 # React Native Material Snackbar
 
-[![npm downloads](https://img.shields.io/npm/dm/react-native-snackbar.svg)](https://www.npmjs.com/package/react-native-material-snackbar)
-[![npm version](https://img.shields.io/npm/v/react-native-snackbar.svg)](https://www.npmjs.com/package/react-native-material-snackbar)
-[![Latest GitHub tag](https://img.shields.io/github/tag/cooperka/react-native-snackbar.svg)](https://github.com/tmmgn/react-native-material-snackbar)
+[![npm downloads](https://img.shields.io/npm/dm/react-native-material-snackbar.svg)](https://www.npmjs.com/package/react-native-material-snackbar)
+[![npm version](https://img.shields.io/npm/v/react-native-material-snackbar.svg)](https://www.npmjs.com/package/react-native-material-snackbar)
+[![GitHub license](https://img.shields.io/github/license/tmmgn/react-native-material-snackbar.svg)](https://github.com/tmmgn/react-native-material-snackbar/blob/master/LICENSE)
+
 
 Material Design 2.0 "Snackbar" component for Android and iOS.
 
