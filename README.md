@@ -45,7 +45,7 @@ Snackbar.show({
     - Using [Yarn](https://yarnpkg.com/): `yarn add react-native-material-snackbar`
 
 2. [Link](https://facebook.github.io/react-native/docs/linking-libraries-ios.html):
-    - `react-native link react-native-snackbar`
+    - `react-native link react-native-material-snackbar`
     - Or if that fails, link manually using [these steps](https://github.com/cooperka/react-native-snackbar/wiki/Manual-Installation)
 
 3. Import it in your JS:
