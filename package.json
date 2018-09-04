@@ -1,0 +1,70 @@
+{
+  "name": "react-native-material-snackbar",
+  "version": "0.0.1",
+  "description": "Material Design 2 \"Snackbar\" component for Android and iOS.",
+  "main": "lib/index.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "src",
+    "lib",
+    "android",
+    "ios",
+    "RNSnackbar.podspec"
+  ],
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx",
+    "flow": "flow src",
+    "clean": "rm -rf lib",
+    "build": "npm run clean && babel src --out-dir lib --ignore src/__tests__",
+    "prepublish": "npm run build"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+    },
+    "modulePathIgnorePatterns": [
+      "<rootDir>/example/"
+    ],
+    "verbose": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmmgn/react-native-material-snackbar.git"
+  },
+  "keywords": [
+    "react-native",
+    "component",
+    "ios",
+    "android",
+    "material design",
+    "snackbar",
+    "snack bar"
+  ],
+  "author": "tmmgn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tmmgn/react-native-material-snackbar/issues"
+  },
+  "homepage": "https://github.com/tmmgn/react-native-material-snackbar",
+  "peerDependencies": {
+    "react": ">=15.1 || >=16.0.0-alpha.6",
+    "react-native": ">=0.40"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.0.0-beta.47",
+    "@babel/core": "7.0.0-beta.47",
+    "babel-eslint": "8.2.6",
+    "eslint": "5.3.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-cooperka": "0.2.9",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-react": "7.11.1",
+    "eslint-plugin-react-native": "3.2.1",
+    "jest": "23.5.0",
+    "react": "16.4.1",
+    "react-native": "0.56"
+  }
+}
